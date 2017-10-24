@@ -5,7 +5,7 @@ html{
 .main{
     background-color: #ffffff;
     width: 1224px;
-    height: 1500px;
+    height: 100%;
     margin: 200px auto;
 }
 .header{
