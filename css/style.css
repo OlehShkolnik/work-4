@@ -1,0 +1,248 @@
+html{
+    background: url('../img/page-bg.png')no-repeat scroll transparent;
+    background-position: 50% 50%;
+}
+.main{
+    background-color: #ffffff;
+    width: 1224px;
+    height: 1500px;
+    margin: 200px auto;
+}
+.header{
+
+}
+
+h1{
+    font-family: "Pathway Gothic One", sans-serif;
+    font-size: 38px;
+    color: #263555;
+    margin-left: 50px;
+    margin-top: 100px;
+}
+
+.headleft p{
+    padding-top: 15px;
+    padding-left: 50px;
+    margin: 10px;
+}
+
+.headleft span{
+    font-family: "Arial Regular";
+    font-size: 16px;
+    font-weight: bold;
+    color: #263555;  
+}
+
+img{
+    margin-left: 50px;
+    padding-right: 20px;
+    float: left;
+    clear: both;
+    margin-top: 15px;
+}
+
+
+.headleft{
+    width: 800px;
+    display: inline-block;
+    clear: both;
+}
+
+.headright{
+    width: 280px;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 70px;
+    counter-reset: heading;
+}
+
+h2{
+    font-family: "Pathway Gothic One", sans-serif;
+    font-size: 38px;
+    color: #263555;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 100px;
+    padding-left: 50px;
+}
+
+h3{
+    display: inline-block;
+    vertical-align: top;
+    font-family: "Arial Regular", sans-serif;
+    font-size: 15px;
+    margin: 0;
+    color: #263555;
+}
+
+.headright p{
+    margin: 0;
+    padding-left: 57px;
+}
+
+.border-bottom{
+    width: 1170px;
+    margin: auto;
+    padding: 10px;
+    border-bottom: solid 1px #dedbdb;
+}
+
+h3:before{
+    counter-increment: heading;
+    content: " " counter(heading)" ";
+    width: 35px;
+    height: 35px;
+    color: #fff;
+    background-color: #38afe5;
+    border-radius: 35px;
+    line-height: 35px;
+    display: inline-block;
+    text-align: center;
+    margin: 10px; 
+}
+
+.content-center{
+    display: inline-block;
+    vertical-align: top;  
+    width: 1224px;
+
+
+}
+.content-center-left{
+    display: inline-block;
+    vertical-align: top;    
+    width: 800px;    
+}
+
+.content-center-left h4{
+    display: inline-block;
+    vertical-align: top;
+    font-family: "Pathway Gothic One", sans-serif;
+    font-size: 38px;
+    color: #263555;
+    margin-left: 50px;
+    margin-top: 60px;
+}
+
+.content-center-left p{
+    margin-left: 50px;
+}
+
+.content-center-left span{
+    font-family: "Arial Regular";
+    font-size: 16px;
+    font-weight: bold;
+    color: #263555;    
+}
+
+.content-center-right{
+    display: inline-block;
+    vertical-align: top;
+    width: 420px;   
+}
+
+.content-center-right h4{
+    display: inline-block;
+    vertical-align: top;
+    font-family: "Pathway Gothic One", sans-serif;
+    font-size: 38px;
+    color: #263555;
+    margin-top: 82px;
+    margin-left: 70px;
+    line-height: 0;
+}
+
+.quote{
+    display: inline-block;
+    vertical-align: top;
+    background: #fcfafa;
+    width: 236px;
+    height: 150px;
+    margin-left: 125px;
+    border-radius: 5px;
+}
+
+.quote p{
+    text-align: center;
+    font-size: 14px;
+    font-family: "Arial Regular";
+    color: #263555;
+    padding-left: 0;
+    padding-top: 10px;  
+}
+
+.triangle{
+    display: inline-block;
+    vertical-align: top;
+    border-top: 35px solid #fcfafa;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    height: 5px;
+    width: 0;
+    margin-left: 220px;    
+}
+
+.quote p:before{
+    content: "”";
+}
+
+.quote p:after{
+    content: "“";
+}
+
+.content-center-right>p{
+    display: inline-block;
+    vertical-align: top;
+    color: #263555;
+    font-size: 14px;
+    font-family: "Arial Regular",sans-serif;
+    margin-top: 0;
+    margin-left: 140px;   
+}
+
+.content-center-right>p>span{
+    display: inline-block;
+    vertical-align: top;
+    font-size: 18px;
+    font-family: "Arial Regular",sans-serif;
+    font-weight: bold;
+    color: #263555;
+    margin-left: 45px;
+    margin-top: 45px;    
+}
+
+.footer{
+    display: inline-block;
+    vertical-align: top;
+    width: 1224px; 
+}
+.footer-ul{
+    width: 300px;
+    display: inline-block;
+    vertical-align: top;
+    list-style-image: url('../img/arrow.png');
+    margin-left: 40px;
+}
+.footer-li{
+    list-style-type: none;
+    margin: 15px;
+    font-size: 17px;
+    font-family: "Arial Regular",sans-serif;
+}
+.footer-ul2{
+    width: 300px;
+    display: inline-block;
+    vertical-align: top;
+    list-style-image: url('../img/arrow.png');
+    margin-left: 40px;
+}
+.footer-li2{
+    list-style-type: none;
+    margin: 15px;
+    font-size: 17px;
+    font-family: "Arial Regular",sans-serif;
+}
+a{
+    text-decoration: none;
+    color: #263555;
+}
